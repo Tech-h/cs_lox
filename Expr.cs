@@ -1,7 +1,7 @@
 ﻿namespace cs_lox;
   
 public abstract class Expr
-{
+{ 
     public abstract T Accept<T>(IVisitor<T> visitor);
 
     public interface IVisitor<T>
