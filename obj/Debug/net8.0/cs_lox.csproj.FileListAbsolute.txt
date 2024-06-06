@@ -1,0 +1,15 @@
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\bin\Debug\net8.0\cs_lox.exe
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\bin\Debug\net8.0\cs_lox.deps.json
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\bin\Debug\net8.0\cs_lox.runtimeconfig.json
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\bin\Debug\net8.0\cs_lox.dll
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\bin\Debug\net8.0\cs_lox.pdb
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.AssemblyInfoInputs.cache
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.AssemblyInfo.cs
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.csproj.CoreCompileInputs.cache
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.sourcelink.json
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.dll
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\refint\cs_lox.dll
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.pdb
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\cs_lox.genruntimeconfig.cache
+C:\Users\alerm\OneDrive\Desktop\Programing Projects\cs_lox\obj\Debug\net8.0\ref\cs_lox.dll
