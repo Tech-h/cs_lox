@@ -1,50 +1,58 @@
 ﻿namespace cs_lox;
 
+// Define a class to represetn the parser.
 public class Parser
 {
-    private readonly List<Token> tokens;
-    private int current;
+    private readonly List<Token> tokens; // List the tokens to parse.
+    private int current; // Index of the current token being parsed.
 
+    // Constructor to initialize the parser with the list of tokens.
     public Parser(List<Token> tokens)
     {
         this.tokens = tokens;
     }
 
+    // Method to start parsing and return the parsed expression.
     public Expr Parse()
     {
         try
         {
-            return Expression();
+            return Expression(); // Begin parsing the expression.
         }
-        catch (ParseError error)
+        catch (ParseError error) // Catch any parsing errors.
         {
             return null;
         }
     }
 
+    // Parses the expression.
     private Expr Expression()
     {
-        return Equality();
+        return Equality(); // Parse a comparison expression.
     }
 
+    // Parse an equality expression.
     private Expr Equality()
     {
-        var expr = Comparison();
-
+        var expr = Comparison(); // Parse a comparison expression.
+        
+        // Continue parsing equality expressions if there are chained equality operators.
         while (Match(TokenType.BANG_EQUAL, TokenType.EQUAL_EQUAL))
         {
-            var operatorToken = Previous();
-            var right = Comparison();
-            expr = new Expr.Binary(expr, operatorToken, right);
+            var operatorToken = Previous(); // Get the operator token.
+            var right = Comparison(); // Parse the right-hand side expression.
+            expr = new Expr.Binary(expr, operatorToken, right); // Create a binary expression.
         }
 
-        return expr;
+        return expr; // return the parsed expression.
     }
 
+    // Parse a comparison expression.
     private Expr Comparison()
     {
-        var expr = Term();
+        var expr = Term(); // Parse a term expression.
 
+        // Continue parsing comparison expressions if there are chained comparison operators.
         while (Match(TokenType.GREATER, TokenType.GREATER_EQUAL, TokenType.LESS, TokenType.LESS_EQUAL))
         {
             var operatorToken = Previous();
